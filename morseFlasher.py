@@ -12,6 +12,7 @@ CODE = {' ': '_', 'A': '.-', 'B': '-...', 'c': '-.-.', 'D': '-..', 'E': '.', 'F'
 def switchon():
         for x in range(11):
                 for y in range(5):
+                        scrollphat.set_brightness(4)
                         scrollphat.set_pixel(x,y,1)
                         scrollphat.update();
 
