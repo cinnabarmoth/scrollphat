@@ -5,5 +5,5 @@
 import scrollphat
 
 #sets a single pixel to 'on' - in this case it is the pixel in the second from left column in the middle row 
-scrollphat.set_pixel(1,3,0)
+scrollphat.set_pixel(1,2,0)
 scrollphat.update();
